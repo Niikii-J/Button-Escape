@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("img/sunflower.png");
+  background-repeat: repeat-y repeat-y;
+  background-size: 100px 100px;
+  background-color: rgb(148, 106, 39);
+}
+
+#flee {
+  position: absolute;
+  white-space: nowrap;
+}
+
+button {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  border: 10px solid white;
+  background-color: rgb(113, 54, 168);
+  padding: 20px;
+  border-radius: 50px;
+}
